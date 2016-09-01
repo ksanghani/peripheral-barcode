@@ -1,0 +1,33 @@
+{
+  "name": "wm-peripheral-barcode",
+  "version": "1.0.0",
+  "description": "WithMe Retail Peripheral Barcode Scanner",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "lint": "./node_modules/.bin/eslint .",
+    "start": "DEBUG=peripheral:barcode node example"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@git.with.me:npm/peripheral-barcode.git"
+  },
+  "keywords": [
+    "peripheral",
+    "addon",
+    "barcode",
+    "scanner"
+  ],
+  "author": "Mario Tacke <tacke.mario@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.4.0"
+  },
+  "peerDependencies": {
+    "serialport": "4.x"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
