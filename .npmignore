@@ -1,5 +1,6 @@
-test/
+example/
 
+.editorconfig
 .eslintrc
 .gitignore
 .npmignore
